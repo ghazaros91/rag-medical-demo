@@ -1,6 +1,6 @@
 # Medical RAG Demo
 
-This project is designed to demonstrate simple use case for RAG on daomain specific data that is medical progress notes.
+This project is designed to demonstrate simple use case for RAG on domain specific data that are medical progress notes.
 
 
 # Installation
@@ -23,7 +23,7 @@ pip3.12 install -r requirements.txt
 
 ```
 brew install ollama
-ollama pull nomic-embed-text
+ollama serve
 ollama pull llama3.2:1b
 ollama pull nomic-embed-text
 ```
@@ -34,7 +34,7 @@ ollama pull nomic-embed-text
 python main.py
 ```
 
-## Run Gradio UI
+## Run Gradio UI (optional)
 ```
 python app.py
 ```
