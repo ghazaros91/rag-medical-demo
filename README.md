@@ -10,7 +10,15 @@ git clone rag-demo
 cd rag-demo
 ```
 
-## Set up virtual environemnt
+## Run Ollama
+```
+brew install ollama
+ollama serve
+ollama pull llama3.2:1b
+ollama pull nomic-embed-text
+```
+
+## Open new terminal and set up virtual environemnt
 ```
 python3.12 -m venv venv
 source venv/bin/activate
@@ -21,17 +29,10 @@ source venv/bin/activate
 pip3.12 install -r requirements.txt
 ```
 
-```
-brew install ollama
-ollama serve
-ollama pull llama3.2:1b
-ollama pull nomic-embed-text
-```
-
 ## Run CLI
 
 ```
-python main.py
+python3.12 main.py
 ```
 
 ## Run Gradio UI (optional)
