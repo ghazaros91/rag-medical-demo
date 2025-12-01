@@ -1,0 +1,12 @@
+langchain-core==1.1.0
+langchain-text-splitters==1.0.0
+langchain-classic==1.0.0
+langchain-ollama==0.3.10
+langchain-community==0.4.1
+tiktoken==0.7.0
+gradio==4.39.0
+python-dotenv==1.0.1
+pytest==8.3.2
+faiss-cpu==1.13.0
+langchain==1.1.0
+langgraph==1.0.4
