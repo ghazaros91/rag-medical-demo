@@ -1,0 +1,49 @@
+# Medical RAG Demo
+
+This project is designed to demonstrate simple use case for RAG on daomain specific data that is medical progress notes.
+
+
+# Installation
+
+```
+git clone rag-demo
+cd rag-demo
+```
+
+## Set up virtual environemnt
+```
+python3.12 -m venv venv
+source venv/bin/activate
+```
+
+## Install Dependencies
+```
+pip3.12 install -r requirements.txt
+```
+
+```
+brew install ollama
+ollama pull nomic-embed-text
+ollama pull llama3.2:1b
+ollama pull nomic-embed-text
+```
+
+## Run CLI
+
+```
+python main.py
+```
+
+## Run Gradio UI
+```
+python app.py
+```
+
+open http://127.0.0.1:7860
+
+## Run tests
+```
+pytest -q
+```
+
+
