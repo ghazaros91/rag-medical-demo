@@ -37,7 +37,7 @@ python3.12 main.py
 
 ## Run Gradio UI (optional)
 ```
-python app.py
+python3.12 app.py
 ```
 
 open http://127.0.0.1:7860
